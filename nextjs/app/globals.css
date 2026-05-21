@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .border-hairline {
+    border: 1px solid rgba(27, 27, 27, 0.1);
+  }
+  .grid-12 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+  }
+  @media (min-width: 768px) {
+    .grid-12 {
+      grid-template-columns: repeat(12, 1fr);
+    }
+  }
+  .canvas-container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  @media (min-width: 768px) {
+    .canvas-container {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f9f9f9;
+  color: #1b1b1b;
+  -webkit-font-smoothing: antialiased;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+
+::selection {
+  background-color: #001f3f;
+  color: #ffffff;
+}
