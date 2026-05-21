@@ -1,0 +1,4 @@
+title,slug,number,description,category,order,featured
+Muhammadiyah ID (MID),muhammadiyah-id,01,"Single Sign-On (SSO) and centralized identity management system ensuring secure, unified access across the entire organizational network.",IDENTITY,1,true
+SatuMu,satumu,02,"The central integration bus and API gateway orchestrating secure data exchange between dispersed institutional nodes and external partners.",INTEGRATION,2,true
+MASA,masa,03,"Enterprise-grade data warehousing and advanced analytics platform delivering actionable intelligence for strategic decision-making.",ANALYTICS,3,true
