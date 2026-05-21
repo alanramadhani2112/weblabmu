@@ -1,0 +1,12 @@
+{
+  "permissions": [
+    {
+      "name": "wix-data.read",
+      "description": "Read data from CMS collections"
+    },
+    {
+      "name": "wix-data.write",
+      "description": "Write data to CMS collections (admin only)"
+    }
+  ]
+}
